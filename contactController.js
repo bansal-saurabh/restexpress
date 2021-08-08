@@ -42,7 +42,7 @@ exports.view = function (req, res) {
             res.send(error);
         } else {
             res.json({
-                message: 'Contact details are loading...',
+                message: 'Contact details loaded succesfully.',
                 data: contact,
             })
         }
